@@ -1,0 +1,212 @@
+@import url('./fonts/fonts.css');
+
+html, body {
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root{
+
+    /*  Theme colors    */
+    --text-gray: #3f4954;
+    --text-light: #686666da;
+    --bg-color: #0f0f0f;
+    --white: #ffffff;
+    --midnight: #3c096c;
+
+    /*  gradient color  */
+    --sky: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+
+    /*  theme font-family  */
+    --JetBrains_Mono: 'JetBrains_Mono', cursive;
+    --Montserrat: 'Montserrat', cursive;
+    --Nunito: 'Nunito', cursive;
+    --PlayfairDisplay: 'PlayfairDisplay', cursive;
+    --BioRhyme: 'BioRhyme', cursive;
+    --Abel: 'Abel', cursive;
+}
+
+.nav {
+    background: lightgrey;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 13vh;
+    overflow: hidden;
+    transition: height 1s ease-in-out;
+}
+
+.nav .nav-menu {
+    justify-content: space-between;
+}
+
+.nav .nav-item .nav-link {
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+    font-family: var(--Nunito);
+    font-size: 1.1rem;
+    color: #0f0f0f;
+}
+
+.nav .nav-item .nav-link:hover {
+    background-color: grey;
+}
+
+.nav .nav-item .nav-link:hover a {
+    color: var(--white);
+}
+
+/* .TICC{
+    
+} */
+
+/*---------------------- Site title ---------------------*/
+
+main .site-title {
+    background: url('./images/smile.jpg');
+    background-size:cover;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+}
+
+main .site-title .site-background {
+    padding-top: 1rem;
+    text-align: center;
+    color: var(--white);
+}
+
+main .site-title h2,h3 {
+    margin: .4rem;
+    color: #0f0f0fad;
+}
+
+main .site-title h2{
+    font-family: var(--Nunito);
+}
+
+main .site-title h3{
+    font-family: var(--Abel);
+}
+
+main .site-title .btn {
+    margin: 0.5rem;
+    /* background: rgb(167, 216, 230); */
+    background: rgba(211, 211, 211, 0.473);
+    border-radius: 10rem;
+}
+
+main .site-title .btn:hover {
+    background: transparent;
+    border: 1px solid white;
+    color: var(--white);
+}
+
+/*----------x------------ Site title -----------x----------*/
+
+/*------------------------------- Main Site Section ------------------------------*/
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .how, .ticc{
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .welcome {
+    background-color: rgba(144, 238, 144, 0.537);
+    padding: .2rem;
+  }
+
+  p {
+    font-family: var(--Montserrat);
+  }
+
+  .containerkk{
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;  
+    box-shadow:1px 2px 3px solid grey;
+    border: 2px solid white ;
+    border-radius: 40px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+/*----------------x--------------- Main Site Section ----------------x--------------*/
+
+/*------------------------------- Footer ------------------------------*/
+
+footer.footer {
+    height: 100%;
+    background: var(--bg-color);
+    position: relative;
+}
+
+footer.footer .containerf {
+    display: grid;
+    /*grid-template-columns: 25% 25% 25% 25%;*/
+    /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+    grid-template-columns: repeat(4, 1fr);
+}
+
+footer.footer .containerf > div {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem .9rem;
+}
+
+footer.footer .containerf h2 {
+    color: var(--white);
+}
+
+
+footer.footer .instagram div > img {
+    display: inline-block;
+    width: 25%;
+    height: 50%;
+    margin: .3rem .4rem;
+}
+
+footer.footer .follow div i {
+    color: var(--white);
+    padding: 0 .4rem;
+}
+
+footer.footer .rights {
+    justify-content: center;
+    font-family: geneva;
+}
+
+footer.footer .rights h4 a {
+    color: var(--white);
+}
+
+footer.footer .move-up {
+    position: absolute;
+    right: 6%;
+    top: 50%;
+}
+
+footer.footer .move-up span {
+    color: var(--text-gray);
+}
+
+footer.footer .move-up span:hover {
+    color: var(--white);
+    cursor: pointer;
+}
+
+/*---------------x--------------- Footer --------------x---------------*/

@@ -1,0 +1,35 @@
+/*font-family: Montsserrat*/
+@font-face {
+    font-family: Montsserrat;
+    src: url('../fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+/*font-family: Nunito*/
+@font-face {
+    font-family: Nunito;
+    src: url('../fonts/Nunito/Nunito-VariableFont_wght.ttf');
+}
+
+/*font-family: Playfair_Display*/
+@font-face {
+    font-family: Playfair_Display;
+    src: url('../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf');
+}
+
+/*font-family: JetBrains_Mono*/
+@font-face {
+    font-family: JetBrains_Mono;
+    src: url('../fonts/JetBrains_Mono/JetBrainsMono-VariableFont_wght.ttf');
+}
+
+/*font-family: BioRhyme*/
+@font-face {
+    font-family: BioRhyme;
+    src: url('../fonts/BioRhyme/BioRhyme-Regular.ttf');
+}
+
+/*font-family: Abel*/
+@font-face {
+    font-family: Abel;
+    src: url('../fonts/Abel/Abel-Regular.ttf');
+}
